@@ -27,6 +27,7 @@ git push origin main
 Later, update your local repository with the latest changes:
 
 ```bash
+git fetch
 git checkout main
 git rebase upstream/main
 ```
